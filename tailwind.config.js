@@ -4,6 +4,10 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  fontFamily: {
+    Inter: ['Inter', "sans-serif"],
+    Montserrat: ['Montserrat', "sans-serif"],
+  },
   theme: {
     extend: {},
   },

@@ -1,0 +1,9 @@
+.gradient-border {
+    border-width: 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom right, rgba(33, 126, 236, 1), rgba(8, 34, 153, 1));
+    border-image-slice: 1;
+    padding: 5px;
+  }
+  

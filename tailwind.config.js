@@ -9,7 +9,12 @@ export default {
     Montserrat: ['Montserrat', "sans-serif"],
   },
   theme: {
-    extend: {},
+    extend: {
+      linearGradientColors: {
+        'blue-green': ['#3490dc', '#38a169'],
+        'pink-purple': ['#d53f8c', '#8b5cf6'],
+      },
+    },
   },
   plugins: [require('daisyui'),],
 }
